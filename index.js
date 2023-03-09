@@ -2,7 +2,7 @@
 const express = require("express");
 const app = express();
 const path = require("path")
-
+const PORT = process.env.PORT || 3030;
 // Set public as static directory
 app.use(express.static('public'));
 
@@ -21,6 +21,6 @@ app.get('/faq',(req,res)=>{
 	res.render('faq')
 })
 // Server setup
-app.listen(3000, () => {
+app.listen(PORT, () => {
 console.log("The server started running on port 3000")
 });

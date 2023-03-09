@@ -37,7 +37,7 @@ let model;
     .then(function (model) {
         window.model = model;
     });
-	$("#selected-image").attr("src", "assets/samplepic.jpg");
+	$("#selected-image").attr("src", "assets/images.jpeg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:

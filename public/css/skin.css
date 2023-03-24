@@ -6,7 +6,35 @@
 .text-color {
 	color: #404040;  /*rgb(64,64,64) */
 }
-
+nav {
+	background-color: rgb(0, 63, 114);
+	overflow: hidden;
+	margin-bottom: 30px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+  nav li {
+	float: left;
+  }
+  
+  nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  nav li a:hover {
+	background-color: #111;
+  }
+  
 .top-font {
 	font-size: 18px;
 	letter-spacing: .07em;
